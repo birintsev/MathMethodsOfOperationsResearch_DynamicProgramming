@@ -85,7 +85,7 @@ public class Main {
             }
         });
         printResult(node);
-        String outputName = input.getName() + "[result]";
+        String outputName = input.getName() + "[result].txt";
         File output = new File(input.getParentFile().getAbsolutePath() + File.separatorChar + outputName);
         try {
             if (output.createNewFile()) {
